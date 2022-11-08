@@ -21,25 +21,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ObserverPattern\ObserverPattern.cpp">
-      <Filter>Source Files\ObserverPattern</Filter>
-    </ClCompile>
+    <ClInclude Include="DecoratorPattern\Beverage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorPattern\Condiment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorPattern\Beverages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorPattern\Condiments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ObserverPattern\Subject.h">
-      <Filter>Source Files\ObserverPattern</Filter>
-    </ClInclude>
-    <ClInclude Include="ObserverPattern\Observer.h">
-      <Filter>Source Files\ObserverPattern</Filter>
-    </ClInclude>
-    <ClInclude Include="ObserverPattern\DisplayElement.h">
-      <Filter>Source Files\ObserverPattern</Filter>
-    </ClInclude>
-    <ClInclude Include="ObserverPattern\WeatherData.h">
-      <Filter>Source Files\ObserverPattern</Filter>
-    </ClInclude>
-    <ClInclude Include="ObserverPattern\Displays.h">
-      <Filter>Source Files\ObserverPattern</Filter>
-    </ClInclude>
+    <ClCompile Include="DecoratorPattern\CoffeeShop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DecoratorPattern\Beverage.h" />
+    <ClInclude Include="DecoratorPattern\Beverages.h" />
+    <ClInclude Include="DecoratorPattern\Condiment.h" />
+    <ClInclude Include="DecoratorPattern\Condiments.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DecoratorPattern\CoffeeShop.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,16 +147,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="ObserverPattern\ObserverPattern.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ObserverPattern\DisplayElement.h" />
-    <ClInclude Include="ObserverPattern\Displays.h" />
-    <ClInclude Include="ObserverPattern\Observer.h" />
-    <ClInclude Include="ObserverPattern\Subject.h" />
-    <ClInclude Include="ObserverPattern\WeatherData.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
