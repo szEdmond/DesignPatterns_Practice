@@ -19,13 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DecoratorPattern\Beverage.h" />
-    <ClInclude Include="DecoratorPattern\Beverages.h" />
-    <ClInclude Include="DecoratorPattern\Condiment.h" />
-    <ClInclude Include="DecoratorPattern\Condiments.h" />
+    <ClCompile Include="CommandPattern\command.h" />
+    <ClCompile Include="CommandPattern\SmartHome.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DecoratorPattern\CoffeeShop.cpp" />
+    <ClInclude Include="CommandPattern\appliances.h" />
+    <ClInclude Include="CommandPattern\control.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

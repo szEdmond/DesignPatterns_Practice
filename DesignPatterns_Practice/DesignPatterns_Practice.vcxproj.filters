@@ -21,22 +21,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DecoratorPattern\Beverage.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DecoratorPattern\Condiment.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DecoratorPattern\Beverages.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DecoratorPattern\Condiments.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="DecoratorPattern\CoffeeShop.cpp">
+    <ClCompile Include="CommandPattern\command.h">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CommandPattern\SmartHome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommandPattern\appliances.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandPattern\control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
