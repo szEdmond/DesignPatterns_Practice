@@ -19,12 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CommandPattern\command.h" />
-    <ClCompile Include="CommandPattern\SmartHome.cpp" />
+    <ClInclude Include="TemplateMethod\Beverage.h" />
+    <ClInclude Include="TemplateMethod\tea.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CommandPattern\appliances.h" />
-    <ClInclude Include="CommandPattern\control.h" />
+    <ClCompile Include="TemplateMethod\Brew.cpp" />
+    <ClCompile Include="TemplateMethod\coffee.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
