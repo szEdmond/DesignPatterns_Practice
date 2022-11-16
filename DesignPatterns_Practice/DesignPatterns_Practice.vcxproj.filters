@@ -21,18 +21,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TemplateMethod\Beverage.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TemplateMethod\tea.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="TemplateMethod\coffee.h">
+    <ClCompile Include="CompositePattern\FComponent.h">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TemplateMethod\Brew.cpp">
+    <ClCompile Include="CompositePattern\Folders.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

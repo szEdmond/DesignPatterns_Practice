@@ -19,12 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TemplateMethod\Beverage.h" />
-    <ClInclude Include="TemplateMethod\tea.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="TemplateMethod\Brew.cpp" />
-    <ClCompile Include="TemplateMethod\coffee.h" />
+    <ClCompile Include="CompositePattern\FComponent.h" />
+    <ClCompile Include="CompositePattern\Folders.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
