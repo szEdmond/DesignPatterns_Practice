@@ -19,8 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CompositePattern\FComponent.h" />
-    <ClCompile Include="CompositePattern\Folders.cpp" />
+    <ClCompile Include="StatePattern\ConcreteStates.cpp" />
+    <ClCompile Include="StatePattern\PhoneExample.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StatePattern\State.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
